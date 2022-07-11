@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-media-dashboard-built-using-scss-and-vanilla-javascript-BSv6_kGZR2](https://www.frontendmentor.io/solutions/social-media-dashboard-built-using-scss-and-vanilla-javascript-BSv6_kGZR2)
+- Live Site URL: [https://social-media-dashboard-ai.netlify.app/](https://social-media-dashboard-ai.netlify.app/)
 
 ## My process
 
