@@ -47,14 +47,19 @@ Users should be able to:
 
 ### What I learned
 
+By building this project I for the first time implemented dark and light mode in a project and a way for the chosen theme to persist for each user by using the LocalStorage API.
+
 ### Continued development
+
+In the future I'd like to get better at SASS and learn one of the popular JavaScript frontend frameworks/libraries.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+On this [link](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture) you can learn more about Sass 7-1 Architecture that I used to structure my Sass in this project.
+
+On this [link](http://getbem.com/) you can learn more about BEM naming convention that I used to name my classes in this project.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@andrijaivkovic](https://www.frontendmentor.io/profile/andrijaivkovic)
+- Twitter - [@AndrijaIvkovic1](https://www.twitter.com/AndrijaIvkovic1)
