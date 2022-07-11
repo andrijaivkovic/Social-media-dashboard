@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="sass/main.scss" />
+    <script defer type="module" src="./script.js"></script>
+    <title>Frontend Mentor | Social Media Dashboard With Theme Toggle</title>
+  </head>
+  <body>
+    <section class="dashboard">
+      <header class="dashboard__header">
+        <div class="dashboard__header-text">
+          <h1 class="dashboard__heading heading-1 heading-1--black">
+            Social Media Dashboard
+          </h1>
+          <p class="dashboard__header-follower-count">
+            Total Followers: 23,004
+          </p>
+        </div>
+        <div class="dashboard__header-theme-toggle-box">
+          <p class="dashboard__header-theme-toggle-text">Dark Mode</p>
+          <input
+            autocomplete="off"
+            id="dashboard__header-theme-toggle"
+            class="dashboard__header-theme-toggle"
+            type="checkbox"
+          />
+          <label
+            class="toggle-button"
+            for="dashboard__header-theme-toggle"
+          ></label>
+        </div>
+      </header>
+      <div class="dashboard__followers">
+        <div class="card-big card-big--facebook">
+          <div class="card-big__profile-name-box">
+            <i class="card-big__platform-icon"></i>
+            <p class="card-big__profile-name">@nathanf</p>
+          </div>
+          <div class="card-big__follower-count-box">
+            <p class="card-big__follower-count">1987</p>
+            <p class="card-big__followers-text">followers</p>
+          </div>
+          <div class="card-big__gains-box">
+            <p class="card-big__gain card-big__gain--positive">12 Today</p>
+          </div>
+        </div>
+        <div class="card-big card-big--twitter">
+          <div class="card-big__profile-name-box">
+            <i class="card-big__platform-icon"></i>
+            <p class="card-big__profile-name">@nathanf</p>
+          </div>
+          <div class="card-big__follower-count-box">
+            <p class="card-big__follower-count">1044</p>
+            <p class="card-big__followers-text">followers</p>
+          </div>
+          <div class="card-big__gains-box">
+            <p class="card-big__gain card-big__gain--positive">99 Today</p>
+          </div>
+        </div>
+        <div class="card-big card-big--instagram">
+          <div class="card-big__profile-name-box">
+            <i class="card-big__platform-icon"></i>
+            <p class="card-big__profile-name">@realnathanf</p>
+          </div>
+          <div class="card-big__follower-count-box">
+            <p class="card-big__follower-count">11k</p>
+            <p class="card-big__followers-text">followers</p>
+          </div>
+          <div class="card-big__gains-box">
+            <p class="card-big__gain card-big__gain--positive">1099 Today</p>
+          </div>
+        </div>
+        <div class="card-big card-big--youtube">
+          <div class="card-big__profile-name-box">
+            <i class="card-big__platform-icon"></i>
+            <p class="card-big__profile-name">Nathan F.</p>
+          </div>
+          <div class="card-big__follower-count-box">
+            <p class="card-big__follower-count">8239</p>
+            <p class="card-big__followers-text">followers</p>
+          </div>
+          <div class="card-big__gains-box">
+            <p class="card-big__gain card-big__gain--negative">144 Today</p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard__stats">
+        <div class="dashboard__stats-title-box">
+          <h1 class="heading-1 heading-1--grey">Overview - Today</h1>
+        </div>
+        <div class="dashboard__stats-card-box">
+          <div class="card-small card-small--facebook">
+            <p class="card-small__stat-name">Page Views</p>
+            <i class="card-small__platform-icon"></i>
+            <p class="card-small__stat-number">87</p>
+            <p class="card-small__gain card-small__gain--positive">3%</p>
+          </div>
+          <div class="card-small card-small--facebook">
+            <p class="card-small__stat-name">Likes</p>
+            <i class="card-small__platform-icon"></i>
+            <p class="card-small__stat-number">52</p>
+            <p class="card-small__gain card-small__gain--negative">2%</p>
+          </div>
+          <div class="card-small card-small--instagram">
+            <p class="card-small__stat-name">Likes</p>
+            <i class="card-small__platform-icon"></i>
+            <p class="card-small__stat-number">5462</p>
+            <p class="card-small__gain card-small__gain--positive">2257%</p>
+          </div>
+          <div class="card-small card-small--instagram">
+            <p class="card-small__stat-name">Page Views</p>
+            <i class="card-small__platform-icon"></i>
+            <p class="card-small__stat-number">52k</p>
+            <p class="card-small__gain card-small__gain--positive">1375%</p>
+          </div>
+          <div class="card-small card-small--twitter">
+            <p class="card-small__stat-name">Retweets</p>
+            <i class="card-small__platform-icon"></i>
+            <p class="card-small__stat-number">117</p>
+            <p class="card-small__gain card-small__gain--positive">303%</p>
+          </div>
+          <div class="card-small card-small--twitter">
+            <p class="card-small__stat-name">Likes</p>
+            <i class="card-small__platform-icon"></i>
+            <p class="card-small__stat-number">507</p>
+            <p class="card-small__gain card-small__gain--positive">553%</p>
+          </div>
+          <div class="card-small card-small--youtube">
+            <p class="card-small__stat-name">Likes</p>
+            <i class="card-small__platform-icon"></i>
+            <p class="card-small__stat-number">107</p>
+            <p class="card-small__gain card-small__gain--negative">19%</p>
+          </div>
+          <div class="card-small card-small--youtube">
+            <p class="card-small__stat-name">Total Views</p>
+            <i class="card-small__platform-icon"></i>
+            <p class="card-small__stat-number">1407</p>
+            <p class="card-small__gain card-small__gain--negative">12%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

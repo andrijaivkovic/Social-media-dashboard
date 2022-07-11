@@ -1,0 +1,11 @@
+.heading-1 {
+  font-size: 2.4rem;
+
+  &--black {
+    color: var(--color-neutral-500);
+  }
+
+  &--grey {
+    color: var(--color-neutral-400);
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "social-media-dashboard",
+  "version": "1.0.0",
+  "description": "Social media dashboard built by the design provided on frontendmentor.io",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Andrija Ivkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}

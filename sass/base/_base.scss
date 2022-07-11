@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%; // makes 1rem = 10px
+
+  @media only screen and (min-width: $breakpoint-desktop) {
+    font-size: 70%;
+  }
+}
+
+body {
+  @include flex-column;
+  @include flex-center;
+
+  gap: 3rem;
+
+  padding: 3rem 3rem;
+
+  font-size: 1.6rem;
+  // line-height: 1.6;
+
+  min-height: 100vh;
+
+  background-color: var(--color-neutral-100);
+}

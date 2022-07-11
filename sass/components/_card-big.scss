@@ -1,0 +1,140 @@
+.card-big {
+  @include flex-column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 0 2rem 0;
+
+  position: relative;
+
+  border-radius: 5px;
+  overflow: hidden;
+
+  background-color: var(--color-neutral-300);
+
+  &::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.35rem;
+  }
+
+  &--facebook &__platform-icon {
+    background-image: url("../images/icon-facebook.svg");
+  }
+
+  &--facebook {
+    &::before {
+      background-color: var(--color-facebook);
+    }
+  }
+
+  &--twitter &__platform-icon {
+    background-image: url("../images/icon-twitter.svg");
+  }
+
+  &--twitter {
+    &::before {
+      background-color: var(--color-twitter);
+    }
+  }
+
+  &--instagram &__platform-icon {
+    background-image: url("../images/icon-instagram.svg");
+  }
+
+  &--instagram {
+    &::before {
+      background-image: var(--color-instagram);
+    }
+  }
+
+  &--youtube &__platform-icon {
+    background-image: url("../images/icon-youtube.svg");
+  }
+
+  &--youtube {
+    &::before {
+      background-color: var(--color-youtube);
+    }
+  }
+
+  &__profile-name-box {
+    @include flex-row;
+    align-items: center;
+
+    gap: 1rem;
+  }
+
+  &__platform-icon {
+    display: block;
+
+    width: 2rem;
+    height: 2rem;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__profile-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-neutral-400);
+  }
+
+  &__follower-count-box {
+    @include flex-column;
+    align-items: center;
+  }
+
+  &__follower-count {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--color-neutral-500);
+  }
+
+  &__followers-text {
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--color-neutral-400);
+  }
+
+  &__gains-box {
+  }
+
+  &__gain {
+    @include flex-row;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    &--positive {
+      color: var(--color-primary-lime-green);
+
+      &::before {
+        content: "";
+        width: 0.8rem;
+        height: 0.4rem;
+        background-image: url("../images/icon-up.svg");
+      }
+    }
+
+    &--negative {
+      color: var(--color-primary-bright-red);
+
+      &::before {
+        content: "";
+        width: 0.8rem;
+        height: 0.4rem;
+        background-image: url("../images/icon-down.svg");
+      }
+    }
+  }
+}
