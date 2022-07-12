@@ -11,6 +11,10 @@
 
   background-color: var(--color-neutral-300);
 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
   &--facebook &__platform-icon {
     background-image: url("../images/icon-facebook.svg");
   }
@@ -70,11 +74,19 @@
     &--positive {
       color: var(--color-primary-lime-green);
 
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+
       &::before {
         content: "";
         width: 0.8rem;
         height: 0.4rem;
         background-image: url("../images/icon-up.svg");
+
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
     }
 
@@ -86,6 +98,10 @@
         width: 0.8rem;
         height: 0.4rem;
         background-image: url("../images/icon-down.svg");
+
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
     }
   }
